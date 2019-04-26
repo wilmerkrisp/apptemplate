@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: graph
+Implementation-Version: 1.0.0
+Main-Class: life.expert.algo.research.base.App
+
