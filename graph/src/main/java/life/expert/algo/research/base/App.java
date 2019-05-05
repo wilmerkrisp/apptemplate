@@ -9,13 +9,6 @@ package life.expert.algo.research.base;//@Header@
 
 
 
-
-
-
-
-
-//import static life.expert.common.io.FileUtils.*;
-
 import java.io.InputStream;
 
 import java.util.ResourceBundle;
@@ -29,8 +22,32 @@ import org.slf4j.LoggerFactory;
 
 
 
+import static java.text.MessageFormat.format;           //format string
+import java.util.ResourceBundle;
+
+import static com.google.common.base.Preconditions.*;   //checkArgument
+//import static life.expert.common.base.Preconditions.*;  //checkCollection
+import static org.apache.commons.lang3.Validate.*;      //notEmpty(collection)
+import static life.expert.common.base.Objects.*;        //deepCopyOfObject
+
+import java.util.function.*;                            //producer supplier
+import static java.util.stream.Collectors.*;            //toList streamAPI
+import static java.util.function.Predicate.*;           //isEqual streamAPI
+
+import java.util.Optional;
 
 
+import static reactor.core.publisher.Mono.*;
+import static reactor.core.scheduler.Schedulers.*;
+import static life.expert.common.async.LogUtils.*;
+
+import static io.vavr.API.*;                            //switch
+import static io.vavr.Predicates.*;                     //switch - case
+import static io.vavr.Patterns.*;                       //switch - case - success/failure
+
+//import java.util.List;                                 //usual list
+//import io.vavr.collection.List;                        //immutable List
+//import com.google.common.collect.*;                   //ImmutableList
 
 
 /**
@@ -79,9 +96,12 @@ public class App
 	 * *
 	 * *
 	 * *    - изменим gradle->use gradle wrapper task configuration
-	 * ->delegate IDE build/run actions to gradle
+	 *                      ->use autoimport
+	 *                      ->create dir for empty content root auto
+	 *                      -> using qualified names
+	 *              ->delegate IDE build/run actions to gradle
 	 * *
-	 * *    - ./gradlew wrapper --gradle-version=5.3.1
+	 * *    - ./gradlew wrapper --gradle-version=5.4
 	 * *
 	 * *    - app run config, vm options
 	 * *            -javaagent:/Users/wilmer/.flow/resources/javaagent.jar -Dflow.agent.autostart -Dflow.agent.include=life.expert.algo

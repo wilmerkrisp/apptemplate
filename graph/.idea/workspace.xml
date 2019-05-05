@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878fdaee-26e5-445b-bcf5-5bcf54d8b99b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,10 +13,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/dependencyUpdates/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/dependencyUpdates/report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -62,11 +66,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#App#0" expanded="true" />
+                <element signature="docComment;method#main#0;class#App#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="435">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,20 +113,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+            <state relative-caret-position="1175">
+              <caret line="325" column="22" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1833#2029#0" expanded="true" />
-                <element signature="e#2107#2120#0" expanded="true" />
-                <element signature="e#2934#3010#0" expanded="true" />
-                <element signature="e#4032#4091#0" expanded="true" />
-                <element signature="e#4382#4424#0" expanded="true" />
-                <element signature="e#5096#5365#0" expanded="true" />
-                <element signature="e#6528#6551#0" expanded="true" />
-                <element signature="e#6614#6646#0" expanded="true" />
-                <element signature="e#7686#7750#0" expanded="true" />
-                <element signature="e#9359#9390#0" expanded="true" />
+                <element signature="e#1882#2078#0" expanded="true" />
+                <element signature="e#2156#2169#0" expanded="true" />
+                <element signature="e#2741#2928#0" expanded="true" />
+                <element signature="e#3415#3491#0" expanded="true" />
+                <element signature="e#4513#4572#0" expanded="true" />
+                <element signature="e#4863#4905#0" expanded="true" />
+                <element signature="e#5577#5846#0" expanded="true" />
+                <element signature="e#7009#7032#0" expanded="true" />
+                <element signature="e#7095#7127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +141,7 @@
       <find>csvMethodStatistics</find>
       <find>saveProfile</find>
       <find>auto</find>
+      <find>lomb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
@@ -166,8 +171,8 @@
     <option name="vmOptions" value="-ea" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1082" />
-    <option name="y" value="-2111" />
+    <option name="x" value="-771" />
+    <option name="y" value="-2109" />
     <option name="width" value="2526" />
     <option name="height" value="2111" />
   </component>
@@ -177,121 +182,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="autoValue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Resource Bundle 'messages'" type="a6c14932:ResourceBundleNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main-generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testIntegr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="graph" type="58d84e3e:PackageViewProjectNode" />
+              <item name="graph" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -452,12 +348,121 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="graph" type="58d84e3e:PackageViewProjectNode" />
-              <item name="graph" type="616d4139:PackageViewModuleNode" />
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="autoValue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'messages'" type="a6c14932:ResourceBundleNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main-generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testIntegr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -684,6 +689,14 @@
       <workItem from="1556273579461" duration="613000" />
       <workItem from="1556299382882" duration="440000" />
       <workItem from="1556300042944" duration="1148000" />
+      <workItem from="1556378837926" duration="478000" />
+      <workItem from="1556781719728" duration="354000" />
+      <workItem from="1556782186468" duration="319000" />
+      <workItem from="1556907616392" duration="83000" />
+      <workItem from="1556980397822" duration="95000" />
+      <workItem from="1556985198124" duration="29000" />
+      <workItem from="1556991665013" duration="69000" />
+      <workItem from="1557054158420" duration="22000" />
     </task>
     <servers />
   </component>
@@ -693,32 +706,32 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20571000" />
+    <option name="totallyTimeSpent" value="22020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1082" y="-2111" width="2526" height="2111" extended-state="0" />
+    <frame x="-771" y="-2109" width="2526" height="2111" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info x="0" y="0" width="303" height="711" id="Documentation" order="3" sideWeight="0.32791153" side_tool="true" visible="true" weight="0.15660225" />
+      <window_info x="0" y="0" width="303" height="711" id="Documentation" order="3" sideWeight="0.33036935" side_tool="true" visible="true" weight="0.16223833" />
       <window_info id="Favorites" order="4" sideWeight="0.4651163" side_tool="true" weight="0.17436177" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.6720885" visible="true" weight="0.15660225" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.66963065" visible="true" weight="0.16465378" />
       <window_info auto_hide="true" id="Ant Build" internal_type="SLIDING" order="7" sideWeight="0.49954587" type="SLIDING" weight="0.24932103" />
       <window_info id="Database" order="8" sideWeight="0.8415147" weight="0.32971212" />
       <window_info id="UML Diagrams" internal_type="SLIDING" order="9" type="SLIDING" />
       <window_info id="Graphical Navigator" internal_type="SLIDING" order="10" type="SLIDING" weight="0.22532189" />
       <window_info auto_hide="true" id="PlantUML" internal_type="SLIDING" order="11" type="SLIDING" weight="0.32971212" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.44404188" visible="true" weight="0.22918756" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.44404188" weight="0.22918756" />
       <window_info anchor="bottom" id="CheckStyle" order="1" sideWeight="0.497006" weight="0.329718" />
       <window_info anchor="bottom" id="Inspection Results" order="2" sideWeight="0.49966735" weight="0.38177875" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="4" sideWeight="0.49462366" weight="0.32779455" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.554444" side_tool="true" weight="0.26692966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.554444" side_tool="true" visible="true" weight="0.2668004" />
       <window_info anchor="bottom" id="ReST Console" order="6" sideWeight="0.36447582" side_tool="true" weight="0.2680851" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43103448" side_tool="true" weight="0.21609703" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43103448" side_tool="true" weight="0.21564694" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.44263187" weight="0.38110402" />
       <window_info anchor="bottom" id="Tail" order="9" />
       <window_info anchor="bottom" id="JProfiler" order="10" />
@@ -732,8 +745,9 @@
       <window_info anchor="bottom" id="Inspection" order="18" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="19" sideWeight="0.49793217" weight="0.32779455" />
       <window_info anchor="bottom" id="Gradle View" order="20" sideWeight="0.4985694" weight="0.23532364" />
-      <window_info anchor="bottom" id="Run" order="21" sideWeight="0.55595815" side_tool="true" weight="0.22918756" />
-      <window_info anchor="right" id="Gradle" order="0" sideWeight="0.2875732" side_tool="true" visible="true" weight="0.1747182" />
+      <window_info anchor="bottom" id="Run" order="21" sideWeight="0.55595815" side_tool="true" weight="0.27031094" />
+      <window_info anchor="bottom" id="Missing In Actions" order="22" />
+      <window_info anchor="right" id="Gradle" order="0" sideWeight="0.29343367" side_tool="true" visible="true" weight="0.1747182" />
       <window_info anchor="right" id="Maven" order="1" sideWeight="0.6332237" side_tool="true" weight="0.20444034" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -742,7 +756,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.7124268" visible="true" weight="0.1747182" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.70656633" visible="true" weight="0.1747182" />
       <window_info anchor="right" id="RestServices" order="10" />
     </layout>
   </component>
@@ -751,12 +765,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -840,37 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#App#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vavr/vavr/0.10.0/449a67da679841ddd8340f477e1501445999a562/vavr-0.10.0-sources.jar!/io/vavr/Value.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -889,6 +872,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#App#0" expanded="true" />
+            <element signature="docComment;method#main#0;class#App#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -896,22 +891,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        <state relative-caret-position="1175">
+          <caret line="325" column="22" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1833#2029#0" expanded="true" />
-            <element signature="e#2107#2120#0" expanded="true" />
-            <element signature="e#2934#3010#0" expanded="true" />
-            <element signature="e#4032#4091#0" expanded="true" />
-            <element signature="e#4382#4424#0" expanded="true" />
-            <element signature="e#5096#5365#0" expanded="true" />
-            <element signature="e#6528#6551#0" expanded="true" />
-            <element signature="e#6614#6646#0" expanded="true" />
-            <element signature="e#7686#7750#0" expanded="true" />
-            <element signature="e#9359#9390#0" expanded="true" />
+            <element signature="e#1882#2078#0" expanded="true" />
+            <element signature="e#2156#2169#0" expanded="true" />
+            <element signature="e#2741#2928#0" expanded="true" />
+            <element signature="e#3415#3491#0" expanded="true" />
+            <element signature="e#4513#4572#0" expanded="true" />
+            <element signature="e#4863#4905#0" expanded="true" />
+            <element signature="e#5577#5846#0" expanded="true" />
+            <element signature="e#7009#7032#0" expanded="true" />
+            <element signature="e#7095#7127#0" expanded="true" />
           </folding>
         </state>
       </provider>
