@@ -1,3 +1,19 @@
+@rem
+@rem Copyright 2015 the original author or authors.
+@rem
+@rem Licensed under the Apache License, Version 2.0 (the "License");
+@rem you may not use this file except in compliance with the License.
+@rem You may obtain a copy of the License at
+@rem
+@rem      http://www.apache.org/licenses/LICENSE-2.0
+@rem
+@rem Unless required by applicable law or agreed to in writing, software
+@rem distributed under the License is distributed on an "AS IS" BASIS,
+@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+@rem See the License for the specific language governing permissions and
+@rem limitations under the License.
+@rem
+
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
@@ -14,7 +30,7 @@ set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%..
 
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRAPH_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS=
+set DEFAULT_JVM_OPTS="--module-path" "%APP_HOME%\lib" "--module" "life.expert.graph/life.expert.algo.research.base.App"
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
@@ -63,10 +79,10 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\graph-1.0.0.jar;%APP_HOME%\lib\auto-value-1.6.3.jar;%APP_HOME%\lib\himalaya-1.0.4.jar;%APP_HOME%\lib\flogger-system-backend-0.3.1.jar;%APP_HOME%\lib\flogger-0.3.1.jar;%APP_HOME%\lib\commons-lang3-3.8.1.jar;%APP_HOME%\lib\commons-collections4-4.2.jar;%APP_HOME%\lib\guava-27.0.1-jre.jar;%APP_HOME%\lib\gson-2.8.5.jar;%APP_HOME%\lib\cyclops-reactive-collections-10.2.0.jar;%APP_HOME%\lib\cyclops-10.2.0.jar;%APP_HOME%\lib\vavr-1.0.0-alpha-2.jar;%APP_HOME%\lib\jsr305-3.0.2.jar;%APP_HOME%\lib\failureaccess-1.0.1.jar;%APP_HOME%\lib\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;%APP_HOME%\lib\checker-qual-2.5.2.jar;%APP_HOME%\lib\error_prone_annotations-2.2.0.jar;%APP_HOME%\lib\j2objc-annotations-1.1.jar;%APP_HOME%\lib\animal-sniffer-annotations-1.17.jar;%APP_HOME%\lib\Agrona-0.9.1.jar;%APP_HOME%\lib\kindedj-1.1.0.jar;%APP_HOME%\lib\reactive-streams-1.0.0.jar;%APP_HOME%\lib\annotations-16.0.3.jar
+set CLASSPATH=
 
 @rem Execute graph
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRAPH_OPTS%  -classpath "%CLASSPATH%" life.expert.algo.research.base.App %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRAPH_OPTS%  -classpath "%CLASSPATH%" life.expert.graph/life.expert.algo.research.base.App %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

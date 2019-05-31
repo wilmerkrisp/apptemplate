@@ -5,14 +5,14 @@
         "mode" : "ss",
         "threads" : 1,
         "forks" : 0,
-        "jvm" : "/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java",
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin/java",
         "jvmArgs" : [
             "-Xms4G",
             "-Xmx4G"
         ],
-        "jdkVersion" : "11.0.2",
+        "jdkVersion" : "12.0.1",
         "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
-        "vmVersion" : "11.0.2+9-LTS",
+        "vmVersion" : "12.0.1+12",
         "warmupIterations" : 0,
         "warmupTime" : "single-shot",
         "warmupBatchSize" : 1,
@@ -23,28 +23,28 @@
             "iterations" : "1000"
         },
         "primaryMetric" : {
-            "score" : 0.103010994,
+            "score" : 0.103343222,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 0.103010994,
-                "50.0" : 0.103010994,
-                "90.0" : 0.103010994,
-                "95.0" : 0.103010994,
-                "99.0" : 0.103010994,
-                "99.9" : 0.103010994,
-                "99.99" : 0.103010994,
-                "99.999" : 0.103010994,
-                "99.9999" : 0.103010994,
-                "100.0" : 0.103010994
+                "0.0" : 0.103343222,
+                "50.0" : 0.103343222,
+                "90.0" : 0.103343222,
+                "95.0" : 0.103343222,
+                "99.0" : 0.103343222,
+                "99.9" : 0.103343222,
+                "99.99" : 0.103343222,
+                "99.999" : 0.103343222,
+                "99.9999" : 0.103343222,
+                "100.0" : 0.103343222
             },
             "scoreUnit" : "s/op",
             "rawData" : [
                 [
-                    0.103010994
+                    0.103343222
                 ]
             ]
         },
@@ -57,14 +57,14 @@
         "mode" : "ss",
         "threads" : 1,
         "forks" : 0,
-        "jvm" : "/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java",
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/bin/java",
         "jvmArgs" : [
             "-Xms4G",
             "-Xmx4G"
         ],
-        "jdkVersion" : "11.0.2",
+        "jdkVersion" : "12.0.1",
         "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
-        "vmVersion" : "11.0.2+9-LTS",
+        "vmVersion" : "12.0.1+12",
         "warmupIterations" : 0,
         "warmupTime" : "single-shot",
         "warmupBatchSize" : 1,
@@ -75,28 +75,28 @@
             "iterations" : "1000"
         },
         "primaryMetric" : {
-            "score" : 0.202934267,
+            "score" : 0.205447829,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 0.202934267,
-                "50.0" : 0.202934267,
-                "90.0" : 0.202934267,
-                "95.0" : 0.202934267,
-                "99.0" : 0.202934267,
-                "99.9" : 0.202934267,
-                "99.99" : 0.202934267,
-                "99.999" : 0.202934267,
-                "99.9999" : 0.202934267,
-                "100.0" : 0.202934267
+                "0.0" : 0.205447829,
+                "50.0" : 0.205447829,
+                "90.0" : 0.205447829,
+                "95.0" : 0.205447829,
+                "99.0" : 0.205447829,
+                "99.9" : 0.205447829,
+                "99.99" : 0.205447829,
+                "99.999" : 0.205447829,
+                "99.9999" : 0.205447829,
+                "100.0" : 0.205447829
             },
             "scoreUnit" : "s/op",
             "rawData" : [
                 [
-                    0.202934267
+                    0.205447829
                 ]
             ]
         },

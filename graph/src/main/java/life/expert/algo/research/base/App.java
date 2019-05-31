@@ -12,9 +12,11 @@ package life.expert.algo.research.base;//@Header@
 import java.io.InputStream;
 
 import java.util.ResourceBundle;
+import java.util.concurrent.Flow;
 import java.util.logging.LogManager;
 
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,9 +28,8 @@ import static java.text.MessageFormat.format;           //format string
 import java.util.ResourceBundle;
 
 import static com.google.common.base.Preconditions.*;   //checkArgument
-//import static life.expert.common.base.Preconditions.*;  //checkCollection
 import static org.apache.commons.lang3.Validate.*;      //notEmpty(collection)
-import static life.expert.common.base.Objects.*;        //deepCopyOfObject
+import org.apache.commons.lang3.StringUtils;            //isNotBlank
 
 import java.util.function.*;                            //producer supplier
 import static java.util.stream.Collectors.*;            //toList streamAPI
@@ -40,6 +41,9 @@ import java.util.Optional;
 import static reactor.core.publisher.Mono.*;
 import static reactor.core.scheduler.Schedulers.*;
 import static life.expert.common.async.LogUtils.*;
+import static life.expert.common.base.Objects.*;        //deepCopyOfObject
+//import static life.expert.common.base.Preconditions.*;  //checkCollection
+
 
 import static io.vavr.API.*;                            //switch
 import static io.vavr.Predicates.*;                     //switch - case
@@ -53,27 +57,9 @@ import static io.vavr.Patterns.*;                       //switch - case - succes
 /**
  * The type App.
  */
+@Slf4j
 public class App
 	{
-	
-	
-	
-	private static final Logger logger_ = LoggerFactory.getLogger( App.class );
-	
-	
-	
-	private static final void log_( String message )
-		{
-		logger_.info( message );
-		}
-	
-	
-	
-	private static final void logAtError_( String message )
-		{
-		logger_.error( message );
-		}
-	
 	
 	
 	private static final ResourceBundle bundle_ = ResourceBundle.getBundle( "messages" );
@@ -81,6 +67,7 @@ public class App
 	
 	
 	private static final String START_MESSAGE_ = bundle_.getString( "startProgram" );
+	private static final String END_MESSAGE_ = bundle_.getString( "endProgram" );
 	
 	
 	
@@ -143,6 +130,8 @@ public class App
 		AlgoOne a = AlgoOne.of();
 		a.run();
 		
+		
+		log_( END_MESSAGE_ );
 		}
 		
 		

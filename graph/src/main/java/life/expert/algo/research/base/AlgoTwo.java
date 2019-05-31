@@ -14,8 +14,8 @@ package life.expert.algo.research.base;//@Header@
 
 
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
+import static life.expert.common.async.LogUtils.*;
 
 
 
@@ -23,24 +23,9 @@ import org.slf4j.LoggerFactory;
 
 
 
-
-
+@Slf4j
 public class AlgoTwo
 	{
-	
-	private static final Logger logger_ = LoggerFactory.getLogger( App.class );
-	
-	private static final void log_( String message )
-		{
-		logger_.info(  message );
-		}
-	
-	
-	
-	private static final void logAtError_( String message )
-		{
-		logger_.error(  message );
-		}
 	
 	private AlgoTwo()
 		{
