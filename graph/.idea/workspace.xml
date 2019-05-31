@@ -2,83 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878fdaee-26e5-445b-bcf5-5bcf54d8b99b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5-rc-1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5-rc-1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5-rc-1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5-rc-1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/jmh/life/expert/algo/research/base/AlgoBechmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/jmh/life/expert/algo/research/base/ExperimentData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/life/expert/algo/research/base/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/life/expert/algo/research/base/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/dependencyUpdates/report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/graph-1.0.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/graph-1.0.0.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/graph-1.0.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/graph-1.0.0.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_algoOne_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_algoTwo_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/ExperimentData_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/ExperimentData_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/ExperimentData_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-classes/life/expert/algo/research/base/generated/ExperimentData_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-resources/META-INF/BenchmarkList" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-resources/META-INF/CompilerHints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_algoOne_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_algoTwo_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/AlgoBechmark_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/ExperimentData_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/ExperimentData_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/ExperimentData_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jmh-generated-sources/life/expert/algo/research/base/generated/ExperimentData_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/graph-1.0.0-jmh.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/graph-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/graph-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/jmh/results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/life.expert.algo.research.base.AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/life.expert.algo.research.base.AppTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/life.expert.algo.research.base.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/life.expert.algo.research.base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/graph" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/graph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/graph.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/graph.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-life.expert.algo.research.base.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-life.expert.algo.research.base.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/MethodStatistics.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/RecordedObjects.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jmh/jmh.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jmhJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jprofile.jps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -131,6 +64,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="graph" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="graph" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -145,9 +84,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="1250">
+              <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;class#App#0" expanded="true" />
                 <element signature="docComment;method#main#0;class#App#0" expanded="true" />
               </folding>
@@ -158,22 +98,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="309" column="4" selection-start-line="309" selection-start-column="4" selection-end-line="309" selection-end-column="4" />
+            <state relative-caret-position="591">
+              <caret line="292" column="52" lean-forward="true" selection-start-line="292" selection-start-column="52" selection-end-line="292" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#2085#2096#0" expanded="true" />
-                <element signature="e#2403#2416#0" expanded="true" />
-                <element signature="e#3299#3487#0" expanded="true" />
-                <element signature="e#3739#3929#0" expanded="true" />
-                <element signature="e#4306#4382#0" expanded="true" />
-                <element signature="e#5404#5463#0" expanded="true" />
-                <element signature="e#5802#6140#0" expanded="true" />
-                <element signature="e#6557#6826#0" expanded="true" />
-                <element signature="e#7985#8008#0" expanded="true" />
-                <element signature="e#8071#8103#0" expanded="true" />
-                <element signature="e#10707#10787#0" expanded="true" />
-                <element signature="e#11011#11042#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,17 +111,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#642#735#0" expanded="true" />
+                <element signature="e#642#735#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/AlgoBechmark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="600">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#ExperimentData#0" expanded="true" />
@@ -202,15 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
-              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-              <folding>
-                <element signature="e#821#858#0" expanded="true" />
-                <element signature="e#941#965#0" expanded="true" />
-              </folding>
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -263,9 +217,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
         <option value="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
       </list>
     </option>
   </component>
@@ -273,10 +227,10 @@
     <option name="vmOptions" value="-ea" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3175" />
-    <option name="y" value="-1337" />
-    <option name="width" value="1894" />
-    <option name="height" value="2137" />
+    <option name="x" value="1419" />
+    <option name="y" value="-1332" />
+    <option name="width" value="2313" />
+    <option name="height" value="2108" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,12 +238,88 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="graph" type="58d84e3e:PackageViewProjectNode" />
-              <item name="graph" type="616d4139:PackageViewModuleNode" />
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -450,88 +480,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graph" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="graph" type="58d84e3e:PackageViewProjectNode" />
+              <item name="graph" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -675,25 +629,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="graph [logProfile]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="logProfile" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="graph [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -713,22 +648,41 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="graph [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.CHECK UPDATE LIBS" />
       <item itemvalue="Gradle.graph [clean build]" />
       <item itemvalue="Gradle.graph [build]" />
-      <item itemvalue="Gradle.graph [logProfile]" />
       <item itemvalue="Gradle.graph [run]" />
       <item itemvalue="Gradle.graph [clean]" />
       <item itemvalue="Gradle.graph [jmh]" />
+      <item itemvalue="Gradle.graph [test]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.graph [jmh]" />
+        <item itemvalue="Gradle.graph [test]" />
         <item itemvalue="Gradle.graph [run]" />
+        <item itemvalue="Gradle.graph [jmh]" />
         <item itemvalue="Gradle.graph [clean]" />
         <item itemvalue="Gradle.graph [build]" />
-        <item itemvalue="Gradle.graph [logProfile]" />
       </list>
     </recent_temporary>
   </component>
@@ -802,7 +756,8 @@
       <workItem from="1559037104270" duration="338000" />
       <workItem from="1559214042374" duration="1847000" />
       <workItem from="1559220646582" duration="1722000" />
-      <workItem from="1559288062344" duration="298000" />
+      <workItem from="1559288062344" duration="1469000" />
+      <workItem from="1559290900140" duration="231000" />
     </task>
     <servers />
   </component>
@@ -810,20 +765,23 @@
     <history-entry file="AppTest_main - 2019.01.23 at 14h 47m 48s.xml">
       <configuration name="AppTest.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="graph_[test] - 2019.05.31 at 11h 24m 40s.xml">
+      <configuration name="graph [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28726000" />
+    <option name="totallyTimeSpent" value="30128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3175" y="-1337" width="1894" height="2137" extended-state="0" />
+    <frame x="1419" y="-1332" width="2313" height="2108" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info x="0" y="0" width="303" height="711" id="Documentation" order="3" sideWeight="0.33674863" side_tool="true" visible="true" weight="0.24838012" />
+      <window_info x="0" y="0" width="303" height="711" id="Documentation" order="3" sideWeight="0.33679834" side_tool="true" visible="true" weight="0.20255394" />
       <window_info id="Favorites" order="4" sideWeight="0.4651163" side_tool="true" weight="0.17436177" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.66325134" visible="true" weight="0.24838012" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.6632017" visible="true" weight="0.20431527" />
       <window_info auto_hide="true" id="Ant Build" internal_type="SLIDING" order="7" sideWeight="0.49954587" type="SLIDING" weight="0.24932103" />
       <window_info id="Database" order="8" sideWeight="0.8415147" weight="0.32971212" />
       <window_info id="UML Diagrams" internal_type="SLIDING" order="9" type="SLIDING" />
@@ -849,10 +807,10 @@
       <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="18" sideWeight="0.49793217" weight="0.32779455" />
       <window_info anchor="bottom" id="Gradle View" order="19" sideWeight="0.4985694" weight="0.23532364" />
-      <window_info active="true" anchor="bottom" id="Run" order="20" sideWeight="0.5534557" side_tool="true" visible="true" weight="0.2752475" />
-      <window_info anchor="bottom" id="Terminal" order="21" sideWeight="0.4465443" visible="true" weight="0.2752475" />
+      <window_info active="true" anchor="bottom" id="Run" order="20" sideWeight="0.55350065" side_tool="true" visible="true" weight="0.20542441" />
+      <window_info anchor="bottom" id="Terminal" order="21" sideWeight="0.44649935" visible="true" weight="0.20542441" />
       <window_info anchor="bottom" id="Missing In Actions" order="22" />
-      <window_info anchor="right" id="Gradle" order="0" sideWeight="0.55122954" side_tool="true" visible="true" weight="0.2300216" />
+      <window_info anchor="right" id="Gradle" order="0" sideWeight="0.6927939" side_tool="true" visible="true" weight="0.18758257" />
       <window_info anchor="right" id="Maven" order="1" sideWeight="0.6332237" side_tool="true" weight="0.20444034" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -861,7 +819,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.4487705" visible="true" weight="0.2300216" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.30720606" visible="true" weight="0.18758257" />
       <window_info anchor="right" id="RestServices" order="10" />
     </layout>
   </component>
@@ -884,16 +842,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logging.properties" />
     <entry file="file://$PROJECT_DIR$/app.log" />
-    <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/AlgoBechmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -931,30 +879,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -970,17 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="docComment;class#App#0" expanded="true" />
-            <element signature="docComment;method#main#0;class#App#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -991,55 +918,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="e#821#858#0" expanded="true" />
-            <element signature="e#941#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="309" column="4" selection-start-line="309" selection-start-column="4" selection-end-line="309" selection-end-column="4" />
+        <state relative-caret-position="591">
+          <caret line="292" column="52" lean-forward="true" selection-start-line="292" selection-start-column="52" selection-end-line="292" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2085#2096#0" expanded="true" />
-            <element signature="e#2403#2416#0" expanded="true" />
-            <element signature="e#3299#3487#0" expanded="true" />
-            <element signature="e#3739#3929#0" expanded="true" />
-            <element signature="e#4306#4382#0" expanded="true" />
-            <element signature="e#5404#5463#0" expanded="true" />
-            <element signature="e#5802#6140#0" expanded="true" />
-            <element signature="e#6557#6826#0" expanded="true" />
-            <element signature="e#7985#8008#0" expanded="true" />
-            <element signature="e#8071#8103#0" expanded="true" />
-            <element signature="e#10707#10787#0" expanded="true" />
-            <element signature="e#11011#11042#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#642#735#0" expanded="true" />
+            <element signature="e#642#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/AlgoBechmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jmh/java/life/expert/algo/research/base/ExperimentData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="600">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#ExperimentData#0" expanded="true" />
             <element signature="docComment;method#setUp#0;class#ExperimentData#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#App#0" expanded="true" />
+            <element signature="docComment;method#main#0;class#App#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>

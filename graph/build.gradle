@@ -307,9 +307,10 @@ dependencies {
     implementation 'com.github.ben-manes.caffeine:caffeine:2.6.2'
     */
 
-    implementation 'life.expert:himalaya:1.0.19'
+    implementation 'life.expert:himalaya:1.0.28'  //19
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.0-M1'
     testImplementation 'org.mockito:mockito-core:2.28.2'
     testImplementation 'com.google.truth:truth:0.45'

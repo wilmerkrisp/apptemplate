@@ -44,7 +44,8 @@
 	requires reactor.core;
 
 	requires org.slf4j;
- requires himalaya;
+ 
+ requires life.expert.himalaya;
  //requires manifold.all;
 
 //requires org.junit.jupiter.api;
