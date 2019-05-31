@@ -1,2 +1,0 @@
-JMH S 43 life.expert.algo.research.base.AlgoBechmark S 69 life.expert.algo.research.base.generated.AlgoBechmark_algoOne_jmhTest S 7 algoOne S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 10 iterations 1 4 1000 E E E 
-JMH S 43 life.expert.algo.research.base.AlgoBechmark S 69 life.expert.algo.research.base.generated.AlgoBechmark_algoTwo_jmhTest S 7 algoTwo S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 10 iterations 1 4 1000 E E E 

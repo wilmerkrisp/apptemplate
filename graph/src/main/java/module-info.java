@@ -18,7 +18,7 @@
 
 
 
- module life.expert.graph {
+ module life.expert.algo {
         
         exports life.expert.algo.research.base;
  
@@ -45,7 +45,7 @@
 
 	requires org.slf4j;
  
- requires life.expert.himalaya;
+        requires life.expert;
  //requires manifold.all;
 
 //requires org.junit.jupiter.api;
