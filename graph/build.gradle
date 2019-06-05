@@ -1,64 +1,69 @@
 /*
 IDE->Settings->Build->Gradle:
- - select: Gradle wrapper customization in build script
- - delegate IDE build/run actions to gradle
+    - select: Gradle wrapper customization in build script
+    - delegate IDE build/run actions to gradle
 
-тестовый запуск скрипта
+dry run gradle
 	./gradlew -q -m
 
-для запуска всех тестов и проверок
-	./gradlew check
+get info about gradle daemons
+    ./gradlew   --status
 
-заставляет выполнить таску повторно	 / force task
+clear gradle tasks cache	 / force task
     ./gradlew  --rerun-tasks tasks
 
-информация о структуре проекта
-./gradlew projects
-
-получить информацию о запущенных демонах
-./gradlew   --status
-
-посмотреть иерархию зависимостей
-./gradlew -q dependencies
-./gradlew -q dependencyInsight --dependency mylibname --configuration scm
-
-дебажим
-./gradlew -q -m -d
-
-для ускорения работы
- -профилируй таску
+for increase gradle speed:  analyze task profile
 	./gradlew --profile tasks
 	./gradlew build --scan
 
-для повышения версии gradle
+increase gradle wrapper  version
 	./gradlew wrapper --gradle-version=5.5-rc-1
 
+debugiing
+    ./gradlew -q -m -d
 
-для отладки
-1) сначала запустить грейдл
-2) потом запустить remote debug on 5005
 
-#org.gradle.daemon=false
-#org.gradle.debug=true
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-или
- ./gradlew tasks -Dorg.gradle.debug=true --no-daemon
-
+check jar new versions
+    ./gradlew -q dependencyUpdates
 
 jar libraries clear dependencies cache
-./gradlew cleanBuildCache
+    ./gradlew cleanBuildCache
 
-проверим наличие новых версий
-./gradlew -q dependencyUpdates
+get project structure
+    ./gradlew projects
+
+get JAR dependencies hierarchy
+    ./gradlew -q dependencies
+    ./gradlew -q dependencyInsight --dependency mylibname --configuration scm
+
+generate module-info.java
+    jdeps --generate-module-info ./ build/libs
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+testing
+	./gradlew check
+
+testing off
+    --exclude-task test
+
+benchmarking
+    jmh/jmh          - run benchmark, get build/reports/jmh/results.json
+    other/jmhReport  - json->html
 
 
+for debug 1)
+    1) run gradle
+    2) then run -  remote debug on 5005
 
-выключить выполнение тестов
---exclude-task test
+    #org.gradle.daemon=false
+    #org.gradle.debug=true
 
-for benchmark
- jmh/jmh        - выполнить измерения, получить build/reports/jmh/results.json
- other/jmhReport  - на основе json, в той же папке получить html
+for debug 2)
+ ./gradlew tasks -Dorg.gradle.debug=true --no-daemon
+
 
 
 */
@@ -73,7 +78,7 @@ plugins {
     id 'idea'
     ////id 'com.ewerk.gradle.plugins.auto-value' version '1.0.8'
 
-    id 'com.dorongold.task-tree' version '1.3.1' /* ./gradlew -q build taskTree */
+    id 'com.dorongold.task-tree' version '1.4' /* ./gradlew -q build taskTree */
     id 'com.github.ben-manes.versions' version '0.21.0' /* ./gradlew -q dependencyUpdates */
 
     id "me.champeau.gradle.jmh" version "0.4.8"
@@ -86,7 +91,7 @@ plugins {
 
     id "io.spring.dependency-management" version "1.0.7.RELEASE"
 
-    id "io.freefair.lombok" version "3.6.4"
+    id "io.freefair.lombok" version "3.6.6"
 
 
     id "org.javamodularity.moduleplugin" version "1.5.0"
@@ -307,7 +312,7 @@ dependencies {
     implementation 'com.github.ben-manes.caffeine:caffeine:2.6.2'
     */
 
-    implementation 'life.expert:himalaya:1.0.29'  //19
+    implementation 'life.expert:himalaya:1.0.30'  //19
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1'
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'
