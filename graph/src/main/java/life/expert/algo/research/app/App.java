@@ -9,6 +9,11 @@ package life.expert.algo.research.base;//@Header@
 
 
 
+
+
+
+
+
 import java.io.InputStream;
 
 import java.util.ResourceBundle;
@@ -16,22 +21,24 @@ import java.util.concurrent.Flow;
 import java.util.logging.LogManager;
 
 
+import life.expert.common.base.ApplicationUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
 
-
-
 import static java.text.MessageFormat.format;           //format string
+
 import java.util.ResourceBundle;
 
 import static com.google.common.base.Preconditions.*;   //checkArgument
 import static org.apache.commons.lang3.Validate.*;      //notEmpty(collection)
+
 import org.apache.commons.lang3.StringUtils;            //isNotBlank
 
 import java.util.function.*;                            //producer supplier
+
 import static java.util.stream.Collectors.*;            //toList streamAPI
 import static java.util.function.Predicate.*;           //isEqual streamAPI
 
@@ -54,6 +61,13 @@ import static io.vavr.Patterns.*;                       //switch - case - succes
 //import com.google.common.collect.*;                   //ImmutableList
 
 
+
+
+
+
+
+
+
 /**
  * The type App.
  */
@@ -62,58 +76,52 @@ public class App
 	{
 	
 	
+	
 	private static final ResourceBundle bundle_ = ResourceBundle.getBundle( "messages" );
 	
 	
 	
 	private static final String START_MESSAGE_ = bundle_.getString( "startProgram" );
+	
+	
+	
 	private static final String END_MESSAGE_ = bundle_.getString( "endProgram" );
 	
 	
 	
- 
-	
-	
-	
 	/**
-	 * *    - пакет задать life.expert.algo.research.base
+	 * - enable annotation processing
+	 *
+	 * *    - set package name life.expert.algo.research.base
 	 * *
-	 * *    - change   rootProject.name  in settings.gradle
-	 * project name in project settings
+	 * *    - change  project name in project settings rootProject.name  in settings.gradle
 	 * *
-	 * *
-	 * *    - изменим gradle->use gradle wrapper task configuration
-	 *                      ->use autoimport
-	 *                      ->create dir for empty content root auto
-	 *                      -> using qualified names
-	 *              ->delegate IDE build/run actions to gradle
+	 * *    - change gradle--use gradle wrapper task configuration
+	 * -use autoimport
+	 * -create dir for empty content root auto
+	 * - using qualified names
+	 * -delegate IDE build/run actions to gradle
 	 * *
 	 * *    - ./gradlew wrapper --gradle-version=5.4
 	 * *
 	 * *    - app run config, vm options
 	 * *            -javaagent:/Users/wilmer/.flow/resources/javaagent.jar -Dflow.agent.autostart -Dflow.agent.include=life.expert.algo
 	 * *
+	 *
+	 * *    - add gradle support
+	 * *              you MUST click* on right corner  "enable auto import"
 	 * *
-	 * *    - создадим новый проект
-	 * *               в настройках IDEA select code style = выберем мою схему
 	 * *
-	 * *    - добавим пакеты life.expert.mainpack и класс VV_main
+	 * *    - add file src/main/java/resources/logging.properties
 	 * *
-	 * *    - добавим поддержку мевена
-	 * *               клик на project -> add framework support = maven
-	 * *              ОБЯЗАТЕЛЬНО НАЖАТЬ В ПРАВОМ НИЖНЕМ УГЛУ В ВЫСКОЧИВШЕМ ОКНЕ enable auto import
-	 * *              помести внутрь тегов в помке снипет maven
+	 * *    - add metainf
+	 * *               cmd+; -- artifacts -- jar -- from modules -- resources directory
+	 * *               (or mouse move meta-inf into resources folder
 	 * *
-	 * *    - добавим файл src/main/java/resources/logging.properties
+	 * *    - add  "Application" config for running app
+	 * *               select main class for run
 	 * *
-	 * *    - добавим metainf
-	 * *               cmd+; -> artifacts -> jar -> from modules -> директорию выберем resources
-	 * *               (или перетащить мышкой meta-inf в подпапку resources
-	 * *
-	 * *    - создать конфигурацию "Application" для запуска
-	 * *               выбрать главный класс для запуска
-	 * *
-	 * *    - проверим: сбилдим цель и провери мавенBUILD
+	 * *    - verify project: gradle build
 	 * *
 	 * *
 	 *
@@ -122,16 +130,24 @@ public class App
 	 */
 	public static void main( final String... p_i )
 		{
-		//System.out.println( "VV_main main " );
-		log_( START_MESSAGE_ );
-		
-		
-		
-		AlgoOne a = AlgoOne.of();
-		a.run();
-		
-		
-		log_( END_MESSAGE_ );
+		try
+			{
+			//System.out.println( "VV_main main " );
+			log_( START_MESSAGE_ );
+			
+			
+			
+			AlgoOne a = AlgoOne.of();
+			a.run();
+			
+			
+			log_( END_MESSAGE_ );
+			}
+		catch( Error error )
+			{
+			ApplicationUtils.fatalError( error );
+			}
+			
 		}
 		
 		
