@@ -1,6 +1,6 @@
-/**
- *
- */
+/**<pre>
+ * The package contains the main application class to load.
+ </pre>*/
 
 
 

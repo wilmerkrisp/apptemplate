@@ -1,4 +1,8 @@
 /*
+
+set command line paramenters
+    run.args = ["test"]
+
 IDE->Settings->Build->Gradle:
     - select: Gradle wrapper customization in build script
     - delegate IDE build/run actions to gradle
@@ -17,7 +21,7 @@ for increase gradle speed:  analyze task profile
 	./gradlew build --scan
 
 increase gradle wrapper  version
-	./gradlew wrapper --gradle-version=5.5-rc-1
+	./gradlew wrapper --gradle-version=5.5-rc-3
 
 debugiing
     ./gradlew -q -m -d
@@ -41,6 +45,12 @@ get JAR dependencies hierarchy
 generate module-info.java
     jdeps --generate-module-info ./ build/libs
 
+draw class diargamm (src/main/graphviz/classdiagram.dot)(build/graphviz/classdiagram.png)
+    ./gradlew archidoc graphviz
+
+show gradle dependencies diagram
+    project->right click-> Diagrams -> Show diagram -> Gradle dependencies
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 testing
@@ -53,8 +63,13 @@ benchmarking
     jmh/jmh          - run benchmark, get build/reports/jmh/results.json
     other/jmhReport  - json->html
 
+profiling
+    jprofiler/saveProfile   - get build/tmp/RecordedObjects.csv
+    change command line arguments as  args = ["--myarg1", "--myarg2"]
 
 for debug 1)
+    0) add to app run config, vm options
+        -javaagent:/Users/wilmer/.flow/resources/javaagent.jar -Dflow.agent.autostart -Dflow.agent.include=life.expert.algo
     1) run gradle
     2) then run -  remote debug on 5005
 
@@ -81,7 +96,7 @@ plugins {
     id 'com.dorongold.task-tree' version '1.4' /* ./gradlew -q build taskTree */
     id 'com.github.ben-manes.versions' version '0.21.0' /* ./gradlew -q dependencyUpdates */
 
-    id "me.champeau.gradle.jmh" version "0.4.8"
+    id "me.champeau.gradle.jmh" version "0.5.0-rc-1"
     id "io.morethan.jmhreport" version "0.9.0"
 
     id "com.jprofiler" version "11.0"
@@ -89,9 +104,9 @@ plugins {
     id "life.expert.archidoc" version "1.0.11"
     id "com.simonharrer.graphviz" version "0.0.1"
 
-    id "io.spring.dependency-management" version "1.0.7.RELEASE"
+    id "io.spring.dependency-management" version "1.0.8.RELEASE"
 
-    id "io.freefair.lombok" version "3.6.6"
+    id "io.freefair.lombok" version "3.7.5"
 
 
     id "org.javamodularity.moduleplugin" version "1.5.0"
@@ -136,7 +151,7 @@ java {
 
 dependencyManagement {
     imports {
-        mavenBom "io.projectreactor:reactor-bom:Californium-SR8"
+        mavenBom "io.projectreactor:reactor-bom:Californium-SR9"
     }
 }
 
@@ -223,8 +238,7 @@ jmhReport {
  - also change getLogFile if log file names differently
 
  runProfile  - run jprofiler and generate dump file
- logProfile  - convert dump to csv
- saveProfile - write csv to log file
+ saveProfile  - convert dump to csv
  */
 
 
@@ -235,12 +249,14 @@ jprofiler {
 
 
 tasks.create('runProfile', com.jprofiler.gradle.JavaProfile) {
+
     main = main_class_name
     classpath sourceSets.main.runtimeClasspath
     offline = true
-    sessionId = 168
+    sessionId = 168 /*this is ID of profile inside config.xml*/
     configFile = file('/Users/wilmer/.jprofiler10/config.xml')
     group = "jprofiler"
+    args = ["--myarg1", "--myarg2"]
 }
 
 ext.csvMethodStatistics = "$projectDir/build/tmp/MethodStatistics.csv"
@@ -312,9 +328,9 @@ dependencies {
     implementation 'com.github.ben-manes.caffeine:caffeine:2.6.2'
     */
 
-    implementation 'life.expert:himalaya:1.0.30'  //19
+    implementation 'life.expert:himalaya:1.0.40'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1' /*!! RC3 версию глючит c JPMS*/
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.0-M1'
     testImplementation 'org.mockito:mockito-core:2.28.2'
@@ -323,8 +339,9 @@ dependencies {
 
     implementation 'org.apache.commons:commons-lang3:3.9'
     implementation 'org.apache.commons:commons-collections4:4.3'
+    implementation 'commons-io:commons-io:2.6'
 
-    implementation 'com.google.guava:guava:27.1-jre'
+    implementation 'com.google.guava:guava:28.0-jre'
     implementation 'com.google.code.gson:gson:2.8.5'
 
 

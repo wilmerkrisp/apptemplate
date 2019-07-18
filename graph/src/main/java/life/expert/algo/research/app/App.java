@@ -1,4 +1,4 @@
-package life.expert.algo.research.base;//@Header@
+package life.expert.algo.research.app;//@Header@
 //--------------------------------------------------------------------------------
 //
 //                          graph  life.expert.algo.research.base
@@ -21,6 +21,7 @@ import java.util.concurrent.Flow;
 import java.util.logging.LogManager;
 
 
+import life.expert.algo.research.base.AlgoOne;
 import life.expert.common.base.ApplicationUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -90,40 +91,7 @@ public class App
 	
 	
 	/**
-	 * - enable annotation processing
-	 *
-	 * *    - set package name life.expert.algo.research.base
-	 * *
-	 * *    - change  project name in project settings rootProject.name  in settings.gradle
-	 * *
-	 * *    - change gradle--use gradle wrapper task configuration
-	 * -use autoimport
-	 * -create dir for empty content root auto
-	 * - using qualified names
-	 * -delegate IDE build/run actions to gradle
-	 * *
-	 * *    - ./gradlew wrapper --gradle-version=5.4
-	 * *
-	 * *    - app run config, vm options
-	 * *            -javaagent:/Users/wilmer/.flow/resources/javaagent.jar -Dflow.agent.autostart -Dflow.agent.include=life.expert.algo
-	 * *
-	 *
-	 * *    - add gradle support
-	 * *              you MUST click* on right corner  "enable auto import"
-	 * *
-	 * *
-	 * *    - add file src/main/java/resources/logging.properties
-	 * *
-	 * *    - add metainf
-	 * *               cmd+; -- artifacts -- jar -- from modules -- resources directory
-	 * *               (or mouse move meta-inf into resources folder
-	 * *
-	 * *    - add  "Application" config for running app
-	 * *               select main class for run
-	 * *
-	 * *    - verify project: gradle build
-	 * *
-	 * *
+	 * Main method
 	 *
 	 * @param p_i
 	 * 	the p i

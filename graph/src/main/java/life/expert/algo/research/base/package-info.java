@@ -1,6 +1,8 @@
-/**
+/**<pre>
  *
- */
+ * the package contains the main application logic
+ *
+</pre>*/
 
 
 

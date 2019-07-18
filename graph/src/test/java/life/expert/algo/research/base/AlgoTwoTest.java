@@ -42,7 +42,7 @@ import static reactor.core.scheduler.Schedulers.*;
 import static life.expert.common.async.LogUtils.*;        //logAtInfo
 import static life.expert.common.function.NullableUtils.*;//.map(nullableFunction)
 import static life.expert.common.function.CheckedUtils.*;// .map(consumerToBoolean)
-import static life.expert.common.function.Patterns.*;    //for-comprehension
+//import static life.expert.common.function.Patterns.*;    //for-comprehension
 import static life.expert.common.base.Objects.*;          //deepCopyOfObject
 
 import static io.vavr.API.*;                              //switch
@@ -86,7 +86,8 @@ class AlgoTwoTest
 	
 	
 	@Test
-	void run()
+	void runTest()
 		{
+		log_( "test two" );
 		}
 	}
