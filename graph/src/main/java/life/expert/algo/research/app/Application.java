@@ -8,12 +8,6 @@ package life.expert.algo.research.app;//@Header@
 
 
 
-
-
-
-
-
-
 import java.io.InputStream;
 
 import java.util.ResourceBundle;
@@ -63,17 +57,11 @@ import static io.vavr.Patterns.*;                       //switch - case - succes
 
 
 
-
-
-
-
-
-
 /**
  * The type App.
  */
 @Slf4j
-public class App
+public class Application
 	{
 	
 	

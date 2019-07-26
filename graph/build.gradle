@@ -21,7 +21,7 @@ for increase gradle speed:  analyze task profile
 	./gradlew build --scan
 
 increase gradle wrapper  version
-	./gradlew wrapper --gradle-version=5.5-rc-3
+	./gradlew wrapper --gradle-version=5.5.1
 
 debugiing
     ./gradlew -q -m -d
@@ -115,13 +115,10 @@ plugins {
 }
 
 
-//wrapper {
-//    gradleVersion = 5.5
-//}
-
-
 ////////////////////////////// for running app//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+wrapper {
+    gradleVersion = '5.5.1'
+}
 
 //plugin application
 mainClassName = "$moduleName/$main_class_name"

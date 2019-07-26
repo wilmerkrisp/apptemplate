@@ -7,6 +7,20 @@ package life.expert.algo.research.app;
 //
 //--------------------------------------------------------------------------------
 
-public class OutputHelper
+
+public interface OutputHelper
 	{
+	public void printAtSuccess( String message );
+	
+	public void print( String message );
+	
+	public void printAtInfo( String message );
+	
+	public void printAtWarning( String message );
+	
+	public void printAtError( Throwable error );
+	
+	public void flush();
+	
+	public String getBuffer();
 	}

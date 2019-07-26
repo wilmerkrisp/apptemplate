@@ -1,4 +1,4 @@
-package life.expert.algo.research.base;
+package life.expert.algo.research.app;
 //@Header@
 //--------------------------------------------------------------------------------
 //
@@ -16,9 +16,10 @@ package life.expert.algo.research.base;
 //--------------------------------------------------------------------------------
 
 //public class ShellCommandsTest
+import life.expert.algo.research.InvokeHelper;
 import life.expert.algo.research.app.ShellCommands;
-import life.expert.riso.InvokeHelper;
-import life.expert.riso.TestApplicationConfiguration;
+import life.expert.algo.research.InvokeHelper;
+import life.expert.algo.research.TestApplicationConfiguration;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -82,7 +83,7 @@ public class ShellCommandsTest
 		assertThat( commandTarget.getAvailability()
 		                         .isAvailable() , is( true ) );
 		assertThat( invoke( commandTarget , 1 , 2 ) , is( 3 ) );
-		///assertThat( state.getMemory() , is( 0 ) );
+		//assertThat( state.getMemory() , is( 0 ) );
 		}
 	
 	@Test

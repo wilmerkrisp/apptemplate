@@ -59,7 +59,7 @@ import lombok.NonNull;//@NOTNULL
 /*
  * todo - enable annotation processing for project
  *
- * todo - change package name life.expert.algo.research.base
+ * todo - change package name life.expert.riso.base
  *
  * todo - change gradle--use gradle wrapper task configuration
  * - use autoimport

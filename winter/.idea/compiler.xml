@@ -4,5 +4,12 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="graph.jmh" target="12" />
+      <module name="graph.main" target="12" />
+      <module name="graph.test" target="12" />
+      <module name="graph.testIntegr" target="12" />
+      <module name="winter.testIntegr" target="12" />
+    </bytecodeTargetLevel>
   </component>
 </project>
