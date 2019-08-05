@@ -1,11 +1,14 @@
 package life.expert.algo.research.app;
-//@Header@
-//--------------------------------------------------------------------------------
+//---------------------------------------------
+//      ___       __        _______   ______
+//     /   \     |  |      /  _____| /  __  \
+//    /  ^  \    |  |     |  |  __  |  |  |  |
+//   /  /_\  \   |  |     |  | |_ | |  |  |  |
+//  /  _____  \  |  `----.|  |__| | |  `--'  |
+// /__/     \__\ |_______| \______|  \______/
 //
-//                          graph  life.expert.algo.research.base
-//                           wilmer 2019/01/23
-//
-//--------------------------------------------------------------------------------
+//              Wilmer Krisp 2019
+//---------------------------------------------
 
 import lombok.extern.slf4j.Slf4j;
 import org.jline.terminal.Terminal;
@@ -13,6 +16,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 
 import java.util.ResourceBundle;
 
@@ -49,6 +54,8 @@ public class Application
 		System.setProperty( "org.jline.terminal.dumb" , "true" );
 		
 		SpringApplication.run( Application.class , args );
+		
+		
 		}
 	
 	@Bean

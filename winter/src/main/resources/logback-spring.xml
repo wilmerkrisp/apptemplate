@@ -9,7 +9,7 @@
 
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>winter.log</file>
+        <file>app.log</file>
         <encoder>
             <charset>UTF-8</charset>
             <Pattern>%d %-4relative [%thread] %-5level %logger{35} - %msg%n
