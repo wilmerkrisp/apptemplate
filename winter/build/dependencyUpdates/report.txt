@@ -1,0 +1,52 @@
+
+------------------------------------------------------------
+: Project Dependency Updates (report to plain text file)
+------------------------------------------------------------
+
+The following dependencies are using the latest milestone version:
+ - com.dorongold.task-tree:com.dorongold.task-tree.gradle.plugin:1.4
+ - com.github.ben-manes.versions:com.github.ben-manes.versions.gradle.plugin:0.22.0
+ - com.google.code.gson:gson:2.8.5
+ - com.google.guava:guava:28.0-jre
+ - com.google.truth:truth:1.0
+ - com.jprofiler:com.jprofiler.gradle.plugin:11.0.1
+ - com.oath.cyclops:cyclops:10.3.3
+ - com.simonharrer.graphviz:com.simonharrer.graphviz.gradle.plugin:0.0.1
+ - commons-io:commons-io:2.6
+ - io.freefair.lombok:io.freefair.lombok.gradle.plugin:3.8.4
+ - io.morethan.jmhreport:io.morethan.jmhreport.gradle.plugin:0.9.0
+ - io.r2dbc:r2dbc-h2:1.0.0.M7
+ - io.spring.dependency-management:io.spring.dependency-management.gradle.plugin:1.0.8.RELEASE
+ - io.vavr:vavr-match:0.10.2
+ - io.vavr:vavr-match-processor:0.10.2
+ - life.expert:himalaya:1.0.49
+ - life.expert.archidoc:life.expert.archidoc.gradle.plugin:1.0.11
+ - me.champeau.gradle.jmh:me.champeau.gradle.jmh.gradle.plugin:0.5.0-rc-2
+ - org.apache.commons:commons-collections4:4.4
+ - org.apache.commons:commons-lang3:3.9
+ - org.mockito:mockito-core:3.0.0
+ - org.projectlombok:lombok:1.18.8
+ - org.springframework.boot:org.springframework.boot.gradle.plugin:2.1.7.RELEASE
+ - org.springframework.boot:spring-boot-dependencies:2.2.0.M5
+ - org.springframework.data:spring-data-r2dbc:1.0.0.M2
+
+The following dependencies exceed the version found at the milestone revision level:
+ - org.springframework.shell:spring-shell-core-test-support [3.0.0.BUILD-SNAPSHOT <- 2.0.1.RELEASE]
+     http://projects.spring.io/spring-boot/
+ - org.springframework.shell:spring-shell-starter [3.0.0.BUILD-SNAPSHOT <- 2.0.1.RELEASE]
+     http://projects.spring.io/spring-boot/
+
+The following dependencies have later milestone versions:
+ - io.projectreactor:reactor-core [3.2.11.RELEASE -> 3.3.0.M3]
+     https://github.com/reactor/reactor-core
+ - io.projectreactor:reactor-test [3.2.11.RELEASE -> 3.3.0.M3]
+     https://github.com/reactor/reactor-core
+ - io.projectreactor.addons:reactor-extra [3.2.3.RELEASE -> 3.3.0.M1]
+     https://github.com/reactor/reactor
+ - io.vavr:vavr [0.10.2 -> 1.0.0-alpha-3]
+     https://www.vavr.io
+ - org.springframework.boot:spring-boot-starter-test [2.1.7.RELEASE -> 2.2.0.M5]
+     https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-test
+
+Gradle release-candidate updates:
+ - Gradle: [5.6-rc-2: UP-TO-DATE]
