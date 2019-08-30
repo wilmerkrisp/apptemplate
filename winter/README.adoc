@@ -141,26 +141,13 @@ see log file at /riso.log
 * reactive approach is used (Spring Reactor) for further parallel scaling of threads
 ** in the future, you should call all commands from the same Flux (Flux.create for example as in the Android reactive applications),
 place processing (domain methods) in a separate thread and draw the result back in the UI thread
+** at the service level, all exceptions except illegalArgumentException are wrapped in a high-level message to the client
 
 * the following https://github.com/wilmerkrisp/conventions[coding standards and conventions were used]
 
 === TECHNOLOGICAL ARCHITECTURE
 
-* monitoring and recovery from failures outside the scope of this work
+* monitoring and outer recovery from failures outside the scope of this work
 
-== пред прод подготовка
 
-* шрифт для заставки http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=ALGO
-* запустить инспекцию по всему коду
-* Enable Gradle 'offline mode' and sync project
-* вставить package-info файлы в каждый пакет
-* переформатить коды в гугл стайл
-* проверить сборку на винде
-* сгенерить javadoc
-* сгенерить asciidoctor
-* сгенерить archidoc
-* картинки зависимостей gradle
-* code coverage report
-* jprofile report
-* jmh test скорости алгоритма
 

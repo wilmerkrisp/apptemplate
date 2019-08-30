@@ -15,9 +15,11 @@ import org.jline.terminal.Terminal;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import reactor.core.publisher.Hooks;
 
 import java.util.ResourceBundle;
 
@@ -32,7 +34,8 @@ import java.util.ResourceBundle;
  */
 @Slf4j
 @SpringBootApplication
-
+@EnableTransactionManagement
+@ComponentScan( { "life.expert.algo.research.app", "life.expert.algo.research.domain.repository"  } )
 public class Application
 	{
 	
@@ -50,8 +53,16 @@ public class Application
 	 */
 	public static void main( final String... args )
 		{
-		/*todo https://github.com/jline/jline3/issues/263*/
+		// todo https://github.com/jline/jline3/issues/263
 		System.setProperty( "org.jline.terminal.dumb" , "true" );
+		
+		// Spring Reactor global error handler
+		Hooks.onOperatorError( ( err , data ) ->
+		                       {
+		                       String s = ( data == null ) ? "No additional data" : "Additional data" + data.toString();
+		                       logger_.error( s , err );
+		                       return err;
+		                       } );
 		
 		SpringApplication.run( Application.class , args );
 		

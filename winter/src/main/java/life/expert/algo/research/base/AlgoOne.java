@@ -84,7 +84,7 @@ public class AlgoOne
 			}
 		catch(final InterruptedException p_exception )
 			{
-			logAtError_("Sleep interrupted");
+			logAtError("Sleep interrupted");
 			}
 		
 		

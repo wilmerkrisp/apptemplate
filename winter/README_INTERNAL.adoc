@@ -1,0 +1,17 @@
+== internal notes / пред прод подготовка
+
+* добавить в методы постусловия для понтов
+* добавить на уровне сервисов обертку низкоуровневых исключений высокоуровневым
+* шрифт для заставки http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=ALGO
+* запустить инспекцию по всему коду
+* Enable Gradle 'offline mode' and sync project
+* вставить package-info файлы в каждый пакет
+* переформатить коды в гугл стайл
+* проверить сборку на винде
+* сгенерить javadoc
+* сгенерить asciidoctor
+* сгенерить archidoc
+* картинки зависимостей gradle
+* code coverage report
+* jprofile report
+* jmh test скорости алгоритма

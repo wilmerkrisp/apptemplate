@@ -83,7 +83,7 @@ public class AlgoTwo
 			}
 		catch(final InterruptedException p_exception )
 			{
-			logAtError_("Sleep interrupted");
+			logAtError("Sleep interrupted");
 			}
 		return;
 		}
