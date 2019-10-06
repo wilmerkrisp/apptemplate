@@ -84,9 +84,9 @@ requires java.logging;
 //	requires himalaya;
 
 
-requires io.vavr;
+requires vavr;
 requires static lombok;
-requires static io.vavr.match;
+requires static vavr.match;
 requires com.google.common;
 requires org.apache.commons.lang3;
 requires org.apache.commons.io;
@@ -94,7 +94,7 @@ requires org.apache.commons.io;
 requires cyclops;
 ////requires cyclops.reactive.collections;
 
-requires gson;
+//requires com.google.gson;
 
 //requires org.jetbrains.annotations;
 //requires error.prone.annotations;

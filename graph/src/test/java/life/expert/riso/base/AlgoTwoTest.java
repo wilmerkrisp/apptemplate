@@ -88,6 +88,6 @@ class AlgoTwoTest
 	@Test
 	void runTest()
 		{
-		log_( "test two" );
+		log( "test two" );
 		}
 	}

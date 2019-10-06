@@ -89,7 +89,7 @@ public class Application
 		try
 			{
 			//System.out.println( "VV_main main " );
-			log_( START_MESSAGE_ );
+			log( START_MESSAGE_ );
 			
 			
 			
@@ -97,7 +97,7 @@ public class Application
 			a.run();
 			
 			
-			log_( END_MESSAGE_ );
+			log( END_MESSAGE_ );
 			}
 		catch( Error error )
 			{

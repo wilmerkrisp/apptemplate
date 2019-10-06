@@ -80,6 +80,6 @@ class AlgoOneTest
 	@Test
 	void runTest()
 		{
-		log_( "test one" );
+		log( "test one" );
 		}
 	}
