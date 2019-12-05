@@ -101,6 +101,7 @@ public class Application
 		try
 			{
 			//System.out.println( "VV_main main " );
+			// test 22
 			log( START_MESSAGE_ );
 			
 			

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85011377-58ef-4955-8bad-2a6aeee9f1fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/app/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../winter/.idea/template-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/.idea/template-meta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../winter/README_INTERNAL.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/README_INTERNAL.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../winter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="85011377-58ef-4955-8bad-2a6aeee9f1fe" name="Default Changelist" comment="refresh 101912" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,8 +183,16 @@
       <workItem from="1570357708068" duration="671000" />
       <workItem from="1574932797437" duration="866000" />
       <workItem from="1575530998555" duration="4673000" />
-      <workItem from="1575537311228" duration="309000" />
+      <workItem from="1575537311228" duration="552000" />
     </task>
+    <task id="LOCAL-00001" summary="refresh 101912">
+      <created>1575537865222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575537865222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="refresh 101912" />
+    <option name="LAST_COMMIT_MESSAGE" value="refresh 101912" />
   </component>
   <component name="WindowStateProjectService">
     <state width="3747" height="544" key="GridCell.Tab.0.bottom" timestamp="1570358380820">
@@ -247,10 +237,14 @@
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
     <state x="1482" y="833" key="IDE.errors.dialog/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570357748121" />
-    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor" timestamp="1575537500175">
+    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor" timestamp="1575538030537">
       <screen x="0" y="23" width="3840" height="2137" />
     </state>
-    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor/0.23.3840.2137/3840.23.1252.777@0.23.3840.2137" timestamp="1575537500175" />
+    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor/0.23.3840.2137/3840.23.1252.777@0.23.3840.2137" timestamp="1575538030537" />
+    <state x="1893" y="796" key="Vcs.Push.Dialog.v2" timestamp="1575537868780">
+      <screen x="0" y="23" width="3840" height="2137" />
+    </state>
+    <state x="1893" y="796" key="Vcs.Push.Dialog.v2/0.23.3840.2137/3840.23.1252.777@0.23.3840.2137" timestamp="1575537868780" />
     <state x="1755" y="977" key="save.project.as.template.dialog" timestamp="1570358374009">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
