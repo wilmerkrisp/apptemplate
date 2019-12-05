@@ -118,7 +118,7 @@ plugins {
 
     id "io.spring.dependency-management" version "1.0.8.RELEASE"
 
-    id "io.freefair.lombok" version "4.1.1"
+    id "io.freefair.lombok" version "4.1.2"
 
     id "org.asciidoctor.convert" version "2.3.0"
 }

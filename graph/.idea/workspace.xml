@@ -2,44 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85011377-58ef-4955-8bad-2a6aeee9f1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.5-rc-3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/app/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/life/expert/algo/research/base/AlgoTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/life/expert/algo/research/base/AlgoTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AlgoOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AlgoOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AlgoTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/life/expert/algo/research/base/AlgoTwoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/life/expert/riso/base/AlgoOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/life/expert/riso/base/AlgoOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/life/expert/riso/base/AlgoTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/life/expert/riso/base/AlgoTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../winter/.idea/template-meta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/.idea/template-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winter/README_INTERNAL.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/README_INTERNAL.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../winter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../winter/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,64 +40,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="distribution" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="graph" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -143,21 +67,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.graph [dependencyUpdates]">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="life.expert.algo.research.app.Application" />
       <module name="apptemplate.graph" />
@@ -170,25 +82,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="graph [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="graph [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -228,6 +121,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="graph [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="graph [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -249,18 +161,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.graph [dependencyUpdates]" />
+        <item itemvalue="Gradle.graph [run]" />
         <item itemvalue="Gradle.graph [clean]" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.graph [test]" />
-        <item itemvalue="Gradle.graph [build]" />
-        <item itemvalue="Gradle.graph [dependencyUpdates]" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -283,7 +200,10 @@
       <workItem from="1564041167804" duration="626000" />
       <workItem from="1564134629961" duration="73000" />
       <workItem from="1570354398183" duration="1759000" />
-      <workItem from="1570357708068" duration="584000" />
+      <workItem from="1570357708068" duration="671000" />
+      <workItem from="1574932797437" duration="866000" />
+      <workItem from="1575530998555" duration="4673000" />
+      <workItem from="1575537311228" duration="309000" />
     </task>
     <servers />
   </component>
@@ -307,25 +227,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3747" height="544" key="GridCell.Tab.0.bottom" timestamp="1570358277862">
+    <state width="3747" height="544" key="GridCell.Tab.0.bottom" timestamp="1570358380820">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
-    <state width="3747" height="544" key="GridCell.Tab.0.bottom/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358277862" />
-    <state width="3747" height="544" key="GridCell.Tab.0.center" timestamp="1570358277861">
+    <state width="3747" height="544" key="GridCell.Tab.0.bottom/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358380820" />
+    <state width="3747" height="544" key="GridCell.Tab.0.center" timestamp="1570358380819">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
-    <state width="3747" height="544" key="GridCell.Tab.0.center/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358277861" />
-    <state width="3747" height="544" key="GridCell.Tab.0.left" timestamp="1570358277861">
+    <state width="3747" height="544" key="GridCell.Tab.0.center/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358380819" />
+    <state width="3747" height="544" key="GridCell.Tab.0.left" timestamp="1570358380818">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
-    <state width="3747" height="544" key="GridCell.Tab.0.left/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358277861" />
-    <state width="3747" height="544" key="GridCell.Tab.0.right" timestamp="1570358277861">
+    <state width="3747" height="544" key="GridCell.Tab.0.left/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358380818" />
+    <state width="3747" height="544" key="GridCell.Tab.0.right" timestamp="1570358380819">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
-    <state width="3747" height="544" key="GridCell.Tab.0.right/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358277861" />
+    <state width="3747" height="544" key="GridCell.Tab.0.right/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358380819" />
     <state x="1482" y="833" key="IDE.errors.dialog" timestamp="1570357748121">
       <screen x="0" y="23" width="3789" height="2137" />
     </state>
     <state x="1482" y="833" key="IDE.errors.dialog/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570357748121" />
+    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor" timestamp="1575537500175">
+      <screen x="0" y="23" width="3840" height="2137" />
+    </state>
+    <state x="1220" y="162" width="1561" height="1635" key="SettingsEditor/0.23.3840.2137/3840.23.1252.777@0.23.3840.2137" timestamp="1575537500175" />
+    <state x="1755" y="977" key="save.project.as.template.dialog" timestamp="1570358374009">
+      <screen x="0" y="23" width="3789" height="2137" />
+    </state>
+    <state x="1755" y="977" key="save.project.as.template.dialog/0.23.3789.2137/1353.2183.1280.777@0.23.3789.2137" timestamp="1570358374009" />
   </component>
 </project>

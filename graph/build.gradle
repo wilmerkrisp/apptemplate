@@ -21,7 +21,7 @@ for increase gradle speed:  analyze task profile
 	./gradlew build --scan
 
 increase gradle wrapper  version
-	./gradlew wrapper --gradle-version=5.5.1
+	./gradlew wrapper --gradle-version=5.6.2
 
 debugiing
     ./gradlew -q -m -d
@@ -29,7 +29,7 @@ debugiing
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-check jar new versions
+check jar new versions  help/dependencyUpdates
     ./gradlew -q dependencyUpdates
 
 jar libraries clear dependencies cache
@@ -45,8 +45,10 @@ get JAR dependencies hierarchy
 generate module-info.java
     jdeps --generate-module-info ./ build/libs
 
-draw class diargamm (src/main/graphviz/classdiagram.dot)(build/graphviz/classdiagram.png)
-    ./gradlew archidoc graphviz
+draw class diargamm and architecture inside Structure101
+-- Menu -- New Local Project -- Static classpath
+-- add class folder: myapp/build/classes/java/main
+-- add source files folder: myapp/src
 
 show gradle dependencies diagram
     project->right click-> Diagrams -> Show diagram -> Gradle dependencies
@@ -64,7 +66,8 @@ benchmarking
     other/jmhReport  - json->html
 
 profiling
-    jprofiler/saveProfile   - get build/tmp/RecordedObjects.csv
+    jprofiler/saveProfile   - convert .jps to build/tmp/RecordedObjects.csv
+        runProfile depends on saveProfile and starts automaticaly
     change command line arguments as  args = ["--myarg1", "--myarg2"]
 
 for debug 1)
@@ -212,7 +215,7 @@ jmh {
     resultFormat = 'JSON' // Result format type (one of CSV, JSON, NONE, SCSV, TEXT)
     forceGC = true // Should JMH force GC between iterations?
 
-    /** необходимо раскоментировать нижеследующее и закоментировать все последующее
+    /** for real benchmarking mode: you need uncomment below and comment all another
      benchmarkMode = ['avgt'] // Benchmark mode. Available modes are: [Throughput/thrpt, AverageTime/avgt, SampleTime/sample, SingleShotTime/ss, All/all]
      fork = 2 // How many times to forks a single benchmark. Use 0 to disable forking altogether
      */

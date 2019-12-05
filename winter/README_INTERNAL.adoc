@@ -10,7 +10,7 @@
 * проверить сборку на винде
 * сгенерить javadoc
 * сгенерить asciidoctor
-* сгенерить archidoc
+* проверить s101
 * картинки зависимостей gradle
 * code coverage report
 * jprofile report

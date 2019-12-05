@@ -8,6 +8,12 @@ package life.expert.algo.research.app;//@Header@
 
 
 
+
+
+
+
+
+
 import java.io.InputStream;
 
 import java.util.ResourceBundle;
@@ -57,6 +63,12 @@ import static io.vavr.Patterns.*;                       //switch - case - succes
 
 
 
+
+
+
+
+
+
 /**
  * The type App.
  */
@@ -81,10 +93,10 @@ public class Application
 	/**
 	 * Main method
 	 *
-	 * @param p_i
-	 * 	the p i
+	 * @param args
+	 * 	command line input arguments
 	 */
-	public static void main( final String... p_i )
+	public static void main( final String... args )
 		{
 		try
 			{
