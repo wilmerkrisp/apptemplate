@@ -60,6 +60,6 @@ public class ShellCommandsTest
 	@Test
 	public void add()
 		{
-		print(  );
+		print( "" );
 		}
 	}

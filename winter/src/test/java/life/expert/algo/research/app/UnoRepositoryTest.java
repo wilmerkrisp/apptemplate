@@ -128,7 +128,7 @@ public class UnoRepositoryTest
 	@Test
 	public void connectionFactoryTest()
 		{
-		print( "tst_________________1__________________" );
+		//print( "tst_________________1__________________" );
 		
 		var client = DatabaseClient.create( connectionFactory );
 		client.execute( "CREATE TABLE RESERVATION (id IDENTITY NOT NULL PRIMARY KEY, name VARCHAR(255))" )
