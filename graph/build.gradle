@@ -97,9 +97,9 @@ plugins {
     ////id 'com.ewerk.gradle.plugins.auto-value' version '1.0.8'
 
     id 'com.dorongold.task-tree' version '1.4' /* ./gradlew -q build taskTree */
-    id 'com.github.ben-manes.versions' version '0.25.0' /* ./gradlew -q dependencyUpdates */
+    id 'com.github.ben-manes.versions' version '0.27.0' /* ./gradlew -q dependencyUpdates */
 
-    id "me.champeau.gradle.jmh" version "0.5.0-rc-2"
+    id "me.champeau.gradle.jmh" version "0.5.0"
     id "io.morethan.jmhreport" version "0.9.0"
 
     id "com.jprofiler" version "11.0.2"
@@ -108,9 +108,9 @@ plugins {
 
     id "io.spring.dependency-management" version "1.0.8.RELEASE"
 
-    id "io.freefair.lombok" version "4.1.2"
+    id "io.freefair.lombok" version "4.1.5"
 
-    id "org.asciidoctor.convert" version "2.3.0"
+    id "org.asciidoctor.convert" version "2.4.0"
     id "org.javamodularity.moduleplugin" version "1.6.0"
     //id "com.dua3.gradle.jpms" version "0.8.3"
 
@@ -119,7 +119,7 @@ plugins {
 
 ////////////////////////////// for running app//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 wrapper {
-    gradleVersion = '5.6.2'
+    gradleVersion = '6.0.1'  //'5.6.2'
 }
 
 //plugin application
@@ -150,7 +150,7 @@ java {
 
 dependencyManagement {
     imports {
-        mavenBom "io.projectreactor:reactor-bom:Californium-SR12"
+        mavenBom "io.projectreactor:reactor-bom:Californium-SR14"
     }
 }
 
@@ -331,7 +331,7 @@ dependencies {
     implementation 'com.github.ben-manes.caffeine:caffeine:2.6.2'
     */
 
-    implementation 'life.expert:himalaya:1.0.56'
+    implementation 'life.expert:himalaya:1.0.59'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.0-M1' /*!! RC3 версию глючит c JPMS*/
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.5.0-M1'
@@ -354,6 +354,7 @@ dependencies {
 
     ////runtimeOnly "io.projectreactor.addons:reactor-logback"  //// для супербыстрого записи в лог
     implementation 'ch.qos.logback:logback-classic:1.3.0-alpha4' //включает  implementation  'org.slf4j:slf4j-api:1.8.0-beta4'
+    //!! -alpha5 глючит!!
 
     implementation 'com.oath.cyclops:cyclops:10.3.3'
     ////implementation 'com.oath.cyclops:cyclops-reactive-collections:10.3.0'
