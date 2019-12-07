@@ -27,13 +27,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
-
+import static io.vavr.API.print;
 import static java.text.MessageFormat.format;           //format string
 
 import java.util.ResourceBundle;
 
 import static com.google.common.base.Preconditions.*;   //checkArgument
+
 import static org.apache.commons.lang3.Validate.*;      //notEmpty(collection)
 
 import org.apache.commons.lang3.StringUtils;            //isNotBlank
@@ -53,7 +53,7 @@ import static life.expert.common.base.Objects.*;        //deepCopyOfObject
 //import static life.expert.common.base.Preconditions.*;  //checkCollection
 
 
-import static io.vavr.API.*;                            //switch
+//import static io.vavr.API.*;                            //switch
 import static io.vavr.Predicates.*;                     //switch - case
 import static io.vavr.Patterns.*;                       //switch - case - success/failure
 
@@ -106,10 +106,11 @@ public class Application
 			// test
 			log( START_MESSAGE_ );
 			
-			
+			print( "Hello world!\n" );
 			
 			AlgoOne a = AlgoOne.of();
 			a.run();
+			
 			
 			
 			log( END_MESSAGE_ );
