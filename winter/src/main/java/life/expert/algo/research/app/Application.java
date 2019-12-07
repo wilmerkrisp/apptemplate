@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Lazy;
 
-import org.springframework.transaction.annotation.EnableTransactionManagement;
+//import org.springframework.transaction.annotation.EnableTransactionManagement;
 import reactor.core.publisher.Hooks;
 
 import java.util.ResourceBundle;
@@ -34,7 +34,7 @@ import java.util.ResourceBundle;
  */
 @Slf4j
 @SpringBootApplication
-@EnableTransactionManagement
+//@EnableTransactionManagement
 @ComponentScan( { "life.expert.algo.research.app", "life.expert.algo.research.domain.repository"  } )
 public class Application
 	{

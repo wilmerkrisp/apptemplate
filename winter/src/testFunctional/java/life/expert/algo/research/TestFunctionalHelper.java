@@ -10,6 +10,7 @@ package life.expert.algo.research;
 import life.expert.algo.research.app.OutputHelper;
 import life.expert.common.async.LogUtils;
 import life.expert.algo.research.app.OutputHelper;
+import life.expert.common.async.PrintUtils;
 import lombok.extern.slf4j.Slf4j;
 
 //import static life.expert.common.base.Preconditions.*;  //checkCollection
@@ -50,7 +51,7 @@ public final class TestFunctionalHelper
 	public void print( String message )
 		{
 		terminal.append( message );
-		LogUtils.print( message );
+		PrintUtils.print( message );
 		}
 	
 	/**
