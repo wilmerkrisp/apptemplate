@@ -29,7 +29,6 @@ public class AlgoBechmark
 	{
 	
 	
-	
 	@Benchmark
 	public void algoOne( ExperimentData data ,
 	                     Blackhole hole )
