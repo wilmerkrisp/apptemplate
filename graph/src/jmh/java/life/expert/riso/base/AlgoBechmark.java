@@ -14,6 +14,8 @@ package life.expert.riso.base;//@Header@
 
 
 
+import life.expert.algo.research.base.AlgoOne;
+import life.expert.algo.research.base.AlgoTwo;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.infra.Blackhole;
 
