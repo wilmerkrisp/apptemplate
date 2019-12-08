@@ -10,6 +10,7 @@ package life.expert.algo.research.base;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import life.expert.common.async.ThreadUtils;
 import lombok.NonNull;//@NOTNULL
 
 import org.junit.jupiter.api.Test;
@@ -81,5 +82,10 @@ class AlgoOneTest
 	void runTest()
 		{
 		log( "test one" );
+		
+		AlgoOne a = AlgoOne.of();
+		a.run();
+		
+		//ThreadUtils.delay( 30 );
 		}
 	}
