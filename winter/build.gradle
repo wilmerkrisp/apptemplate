@@ -114,7 +114,7 @@ plugins {
     id 'com.dorongold.task-tree' version '1.4' /* ./gradlew -q build taskTree */
     id 'com.github.ben-manes.versions' version '0.27.0' /* ./gradlew -q dependencyUpdates */
 
-    id "me.champeau.gradle.jmh" version "0.5.0"
+    id "me.champeau.gradle.jmh" version  "0.4.8" // todo  "0.5.0" is wrong
     id "io.morethan.jmhreport" version "0.9.0"
 
     id "com.jprofiler" version "11.0.2"
