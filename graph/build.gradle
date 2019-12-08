@@ -27,7 +27,9 @@ debugiing
     ./gradlew -q -m -d
      ./gradlew --debug
      arguments== -d
-
+    ./gradlew tasks -Dorg.gradle.debug=true --no-daemon
+    #org.gradle.daemon=false
+    #org.gradle.debug=true
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -64,6 +66,7 @@ testing off
     --exclude-task test
 
 benchmarking
+    for benchmarking start JMH gradle task and use JMH source set
     ./gradlew --stop && ./gradlew clean jmh --no-daemon
     jmh/jmh          - run benchmark, get build/reports/jmh/results.json
     other/jmhReport  - json->html
@@ -73,17 +76,12 @@ profiling
         runProfile depends on saveProfile and starts automaticaly
     change command line arguments as  args = ["--myarg1", "--myarg2"]
 
-for debug 1)
-    0) add to app run config, vm options
-        -javaagent:/Users/wilmer/.flow/resources/javaagent.jar -Dflow.agent.autostart -Dflow.agent.include=life.expert.algo
-    1) run gradle
-    2) then run -  remote debug on 5005
+for debug with flow
+    0) start standalone flow server
+    1) uncomment "flow" section below
+    2) run gradle task
+    3) open site http://localhost:7575/#
 
-    #org.gradle.daemon=false
-    #org.gradle.debug=true
-
-for debug 2)
- ./gradlew tasks -Dorg.gradle.debug=true --no-daemon
 
 
 
@@ -206,6 +204,28 @@ jmhReport {
     jmhResultPath = project.file('build/reports/jmh/results.json')
     jmhReportOutput = project.file('build/reports/jmh')
 }
+
+//////////////////////////////flow//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//for debug RUNNING with flow 3)
+applicationDefaultJvmArgs = [
+        '-javaagent:/Users/wilmer/.flow/resources/javaagent.jar',
+        '-Dflow.agent.autostart',
+        '-Dflow.agent.include=life.expert'
+]
+
+//for debug TESTING with flow 4)
+test {
+    useJUnitPlatform()
+
+    jvmArgs = [
+            '-javaagent:/Users/wilmer/.flow/resources/javaagent.jar',
+            '-Dflow.agent.autostart',
+            '-Dflow.agent.include=life.expert'
+    ]
+}
+*/
 
 
 //////////////////////////////profiling//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
