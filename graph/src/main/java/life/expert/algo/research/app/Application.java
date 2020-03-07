@@ -22,6 +22,7 @@ import java.util.logging.LogManager;
 
 
 import life.expert.algo.research.base.AlgoOne;
+import life.expert.common.async.ThreadUtils;
 import life.expert.common.base.ApplicationUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -114,6 +115,8 @@ public class Application
 			
 			
 			log( END_MESSAGE_ );
+			
+			//ThreadUtils.delay( 30 );
 			}
 		catch( Error error )
 			{
