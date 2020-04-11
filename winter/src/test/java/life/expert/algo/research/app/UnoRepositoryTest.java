@@ -87,6 +87,7 @@ import lombok.Data;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.autoconfigure.data.r2dbc.DataR2dbcTest;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.r2dbc.core.DatabaseClient;
@@ -109,6 +110,9 @@ import static life.expert.common.async.LogUtils.*;        //logAtInfo
 public class UnoRepositoryTest
 	{
 	@Autowired private UnoRepository unoRepository;
+	
+	//@Qualifier( "connectionFactory" )
+	
 	
 	@Autowired ConnectionFactory connectionFactory;
 	

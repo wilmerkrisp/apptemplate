@@ -277,14 +277,14 @@ jmhReport {
 
 //////////////////////////////flow//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*
+
 //for debug RUNNING with flow 3)
 applicationDefaultJvmArgs = [
-        '-javaagent:/Users/wilmer/.flow/resources/javaagent.jar',
+        '-javaagent:/Users/trans/.flow/resources/javaagent.jar',
         '-Dflow.agent.autostart',
         '-Dflow.agent.include=life.expert'
 ]
-
+/*
 //for debug TESTING with flow 4)
 test {
     useJUnitPlatform()
